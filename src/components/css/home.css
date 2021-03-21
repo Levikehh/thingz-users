@@ -1,0 +1,36 @@
+.users-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.user-list-item * {
+    margin: 10px;
+}
+
+.user-list-item .user-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.user-list-item .user-data * {
+    font-size: 1.2rem;
+}
+
+.user-list-item .user-profile{
+    width: 75px;
+    height: 75px;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border-radius: 50%;
+}

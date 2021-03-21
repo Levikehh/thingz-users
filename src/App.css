@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #131722;
+    color: #efefef;
+    font-family: Consolas,"courier new";
+}
+
+a, a:active, a:checked, a:disabled {
+    color: #efefef;
+    text-decoration: none;
+}
